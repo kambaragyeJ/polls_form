@@ -2,6 +2,7 @@
 <?php require_once('Connections/conn_vote.php'); ?>
 
 <?php 
+/* Jackson Kambaragye */
 $query_rs_vote = "SELECT * FROM poll";
 $rs_vote = mysql_query($query_rs_vote, $conn_vote) or die(mysql_error());
 $row_rs_vote = mysql_fetch_assoc($rs_vote);
