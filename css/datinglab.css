@@ -1,0 +1,78 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	font-family: Georgia, serif;
+	background: top center no-repeat #EEECFE; 
+}
+
+h6 {
+	font-size: 1.4em;
+	margin-bottom: 15px;
+}
+
+a { color: blue;
+   font-size: 1.4em;
+ }
+
+label, li {
+	display: block;
+	padding: 5px;
+	font-size: 1.4em;
+	color: #00000;
+}
+
+fieldset {
+	margin: 215px auto;
+	width: 800px;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid white;
+	display: block; 
+    background-color:#FFFFFF;
+	}
+	legend {
+		padding: 4px 6px 4px 6px;
+		border: 1px solid white;
+		font-size: 2.0em;
+		color: #00000;
+		font-style: italic;
+	}
+	
+ul { list-style: none; margin-bottom: 15px;}
+
+.results-bar {
+	padding: 10px;
+	color: black;
+	background-image: url("images/result.png");
+	background-color: #cccccc;
+	white-space: nowrap;
+}
+
+span.total-votes {
+	font-size: 2.6em;
+}
+
+.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  border: 1px solid black;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.2em;
+  border: 1px;
+}
+.form-signin {
+    margin: 150px auto;
+	width: 600px;
+	padding: 8px 10px 10px 10px;
+	border: 1px solid white;
+	display: block; 
+    background-color:#FFFFFF;
+}
