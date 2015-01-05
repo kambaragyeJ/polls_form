@@ -36,7 +36,7 @@ $percentbrowser5 = ($num_rowsbrowser5 / $totalRows_rs_vote)*100;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Results</title>
-	<link href="css/datinglab.css" rel="stylesheet" type="text/css"/>
+	<link href="css/test/datinglab.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
